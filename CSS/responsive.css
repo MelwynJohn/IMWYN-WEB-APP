@@ -1,0 +1,50 @@
+@media only screen and (max-width: 1184px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 448px;
+    }
+    .rightNav {
+        text-align: center;
+    }
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search {
+        width: 100%;
+    }
+    .burger {
+        display: block;
+    }
+    .h-nav-resp {
+        height: 72px;
+    }
+    .v-class-resp {
+        opacity: 0;
+    }
+    .secright {
+        flex-direction: column-reverse;
+    }
+    .secleft {
+        flex-direction: column-reverse;
+    }
+    .secmiddle {
+        flex-direction: column-reverse;
+    }
+    .text-small {
+        text-align: center;
+    }
+    .text-big {
+        text-align: center;
+    }
+    .buttons {
+        text-align: center;
+    }
+    .background{
+        max-width: 100%;
+    }
+}

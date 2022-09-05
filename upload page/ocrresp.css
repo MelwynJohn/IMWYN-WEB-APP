@@ -1,0 +1,34 @@
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+@media only screen and (max-width: 1216px) {
+    .nav-list {
+        flex-direction: column;
+    }
+    .navbar {
+        flex-direction: column;
+        transition: all 0.7s ease-out;
+        height: 448px;
+    }
+    .rightNav {
+        text-align: center;
+    }
+    .box-main {
+        flex-direction: column-reverse;
+        max-width: 100%;
+    }
+    #search {
+        width: 100%;
+    }
+    .burger {
+        display: block;
+    }
+    .background{
+        margin: 0px 12px;
+    }
+}

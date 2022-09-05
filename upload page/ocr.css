@@ -1,0 +1,123 @@
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+    margin-top: -8;
+    margin-left: -8;
+    margin-right: -8;
+    cursor: pointer;
+}
+
+.logo {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 33%;
+    border: 3px solid white;
+    border-radius: 50px;
+}
+
+.nav-list {
+    /*background-color: black;*/
+    width: 55%;
+    display: flex;
+    align-items: center;
+}
+
+.nav-list li {
+    list-style: none;
+    padding: 26px 30px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav-list li a:hover {
+    text-decoration: none;
+    color: grey;
+}
+
+.rightNav {
+    /*background-color: violet;*/
+    text-align: right;
+    width: 50%;
+    padding: 12px 29px;
+}
+
+#search {
+    padding: 5px;
+    font-size: 17px;
+    border: 2px solid grey;
+    border-radius: 9px;
+}
+
+.background {
+    background: rgba(0, 0, 0, 0.7);
+    background-size: 100%;
+    background-blend-mode: darken;
+}
+
+.btn {
+    padding: 8px 20px;
+    margin: 7px 0;
+    border: 2px solid cornflowerblue;
+    border-radius: 15px;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.myVideo {
+    background-size: 100%;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    z-index: -1;
+    padding: 0;
+    overflow: hidden;
+}
+
+.text-center {
+    text-decoration: black;
+    color: white;
+    position: fixed;
+    width: 355px;
+    margin: -50px 290px;
+    padding: 0% 15%;
+    bottom: 40%;
+    border: 2px dashed black;
+    border-radius: 55px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 6px 15px rgb(9, 184, 238);
+}
+
+input {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0px 6px 15px black;
+    border: 1px solid grey;
+    padding: 8px;
+    border: 2px solid cornflowerblue;
+    background: none;
+    color: white;
+    cursor: pointer;
+}
+
+.ocr-text {
+    margin: 48px 38px;
+    padding: 9px 27px;
+    padding-right: 70px;
+}
