@@ -8,10 +8,10 @@
         <ul class="nav-list">
             <div class="logo">
             <img src="#img" alt="Logo"></div>
-            <li><a href="http://127.0.0.1:5500/index.html">HOME</a></li>
+            <li><a href="index.html">HOME</a></li>
             <li><a href="#about">ABOUT</a></li>
             <li><a href="ocr.php">SERVICES</a></li>
-            <li><a href="http://127.0.0.1:5500/index.html#cont_act">CONTACT US</a></li>
+            <li><a href="index.html#cont_act">CONTACT US</a></li>
         </ul>
         <div class="rightNav">
             <input type="text" name="Search" id="search">
@@ -43,7 +43,7 @@ move_uploaded_file($file_tmp,"images/".$file_name);
 <?php 
 echo '<p style="width: 90%; border: 3px solid black; margin: 0px 65px"><img src="images/'.$file_name.'" style="width:100%"></p>';
 
-shell_exec('"https://github.com/MelwynJohn/IMWYN-WEB-APP/blob/main/Tesseract-OCR/tesseract.exe" "C:\\xampp\\htdocs\\images\\'.$file_name.'" out');
+shell_exec('"https://github.com/MelwynJohn/IMWYN-WEB-APP/blob/main/Tesseract-OCR/tesseract.exe" "https://github.com/MelwynJohn/IMWYN-WEB-APP/tree/main/upload%20page/images'.$file_name.'" out');
 ?>
 <br>
 <br>
