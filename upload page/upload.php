@@ -43,7 +43,7 @@ move_uploaded_file($file_tmp,"images/".$file_name);
 <?php 
 echo '<p style="width: 90%; border: 3px solid black; margin: 0px 65px"><img src="images/'.$file_name.'" style="width:100%"></p>';
 
-shell_exec('"C:\\Tesseract-OCR\\tesseract" "C:\\xampp\\htdocs\\images\\'.$file_name.'" out');
+shell_exec('"https://github.com/MelwynJohn/IMWYN-WEB-APP/blob/main/Tesseract-OCR/tesseract.exe" "C:\\xampp\\htdocs\\images\\'.$file_name.'" out');
 ?>
 <br>
 <br>
